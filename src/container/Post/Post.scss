@@ -1,0 +1,35 @@
+.table {
+   .table-cell {
+      &:first-of-type {
+         width: 15%;
+      }
+      &:last-of-type {
+         width: 10%;
+         text-align: center;
+      }
+   }
+}
+
+.edit {
+   margin-bottom: 3px;
+   padding: 8px;
+   cursor: pointer;
+}
+
+.remove {
+   padding: 8px;
+   cursor: pointer;
+}
+
+@media (min-width: 992px) {
+   .edit {
+      margin-bottom: 0;
+   }
+}
+
+@media (min-width: 992px) {
+   .edit {
+      margin-bottom: 0;
+   }
+}
+
